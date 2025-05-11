@@ -1,0 +1,15 @@
+ BACKUP AND RESTORE BEST PRACTICES
+Backup Best Practices:
+Schedule Regular Backups: Use cron jobs or task scheduler to perform daily/weekly backups.
+
+Store Backups in Multiple Locations: Save backups both locally and in cloud storage for redundancy.
+
+Backup Verification: Regularly test backup files by performing a restore on a test database.
+
+Restore Best Practices:
+Test Restores: Periodically restore your database to ensure backups are working properly.
+
+Monitor for Corruption: After restoring, verify that the data is intact by checking table counts and consistency.
+
+Backup Before Making Changes: Always take a backup before making major changes to the database schema or data.
+
