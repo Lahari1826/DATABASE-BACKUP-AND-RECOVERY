@@ -1,0 +1,8 @@
+🔹 Database: my_database
+🔹 Backup Method: Used `mysqldump` for logical backups.
+🔹 Backup Storage: Backup files saved securely in the designated folder.
+🔹 Recovery Process: Restored using `mysql` command from the `.sql` backup file.
+🔹 Automation: Automated backup and restore processes using shell scripts.
+🔹 Best Practices: Regular backups, offsite storage, backup verification.
+
+🔹 Status:  Backup and recovery process successfully implemented.
